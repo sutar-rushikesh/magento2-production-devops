@@ -1,0 +1,37 @@
+# Environment
+.env
+
+# Database backups
+*.sql
+*.sql.gz
+
+# Magento secrets
+magento/auth.json
+
+# Magento generated content
+magento/generated/
+magento/var/
+
+# Dependencies
+magento/vendor/
+
+# Static content (generated)
+magento/pub/static/*
+!magento/pub/static/.htaccess
+
+# Media cache
+magento/pub/media/catalog/product/cache/
+
+# Logs
+*.log
+
+# IDE
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# SSL Certificates
+certs/
