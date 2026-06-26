@@ -232,10 +232,6 @@ php bin/magento deploy:mode:set production
 
 DevOps Engineer
 
-GitHub: *(Add your GitHub profile after creating it)*
-
-LinkedIn: *(Add your LinkedIn profile)*
-
 ---
 
 ## License
