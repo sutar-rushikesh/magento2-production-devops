@@ -31,14 +31,3 @@ jobs:
             docker exec magento-php bash -c "cd /var/www/html && php bin/magento cache:flush"
 
             echo "Deployment completed successfully."
-            
-            free -h
-
-             df -h 
-            
-             docker ps
-
-            docker stats --no-stream
-
-            uptime
-            dmesg | tail -50
